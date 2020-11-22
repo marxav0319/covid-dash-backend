@@ -6,6 +6,9 @@ To develop and run:
   is installing, it'll make life easier.  You may want to add python to your PATH so
   you can run commands from cmd.
 - Install IDE of choice (I'm using pycharm)
+- Clone this repository.  You need to create a file:
+  `covid-dash-backend/clyde/clyde/secret_settings.py`, and put a variable in there
+  called `SECRET_KEY` with a string I'll send you in a chat on here or something.
 - pip install virtualenv with (substute `python` for `python3` if that's how it
   works on your computer).  In the `covid-dash-backend` dir, run the command
   `python -m pip install virtualenv`
